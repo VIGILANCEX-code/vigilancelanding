@@ -41,3 +41,7 @@ mockupState = "MOCKUP"
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[[ports]]
+localPort = 43093
+externalPort = 3000
