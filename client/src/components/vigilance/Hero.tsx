@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import heroBg from "@assets/generated_images/futuristic_cybersecurity_abstract_background_with_glowing_nodes.png";
+import heroBg from "@assets/generated_images/hero-bg.jpg";
 import { ChevronRight } from "lucide-react";
 
 export default function Hero() {
