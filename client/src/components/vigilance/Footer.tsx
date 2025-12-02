@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import logo from "@assets/LOGO_1764638870459.png";
 
 export default function Footer() {
   return (
@@ -6,13 +7,8 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
-             <div className="flex items-center gap-2 mb-2">
-                <div className="w-6 h-6 bg-primary rounded-sm flex items-center justify-center">
-                  <div className="w-3 h-3 bg-black rotate-45" />
-                </div>
-                <span className="text-xl font-heading font-bold text-white">
-                  VIGILANCE<span className="text-primary">X</span>
-                </span>
+             <div className="flex items-center gap-2 mb-4">
+                <img src={logo} alt="VigilanceX" className="h-12 w-auto object-contain" />
               </div>
             <p className="text-muted-foreground text-sm">Relentless Vigilance for a Safer Tomorrow.</p>
           </div>

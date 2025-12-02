@@ -72,7 +72,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-tech font-bold text-white text-lg">Call Us</h4>
-                  <p className="text-muted-foreground">+91-XXXXXXXXXX</p>
+                  <p className="text-muted-foreground">+91 6379794016</p>
                 </div>
               </div>
 

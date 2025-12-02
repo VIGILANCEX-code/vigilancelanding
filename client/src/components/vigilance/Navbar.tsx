@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Link } from "wouter";
+import logo from "@assets/LOGO_1764638870459.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,17 +34,12 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/80 backdrop-blur-md border-b border-white/10 py-4" : "bg-transparent py-6"
+        scrolled ? "bg-background/90 backdrop-blur-md border-b border-white/10 py-2" : "bg-transparent py-6"
       }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
-            <div className="w-4 h-4 bg-background rotate-45" />
-          </div>
-          <span className="text-2xl font-heading font-bold tracking-wider text-white">
-            VIGILANCE<span className="text-primary">X</span>
-          </span>
+          <img src={logo} alt="VigilanceX" className="h-12 w-auto object-contain" />
         </div>
 
         {/* Desktop Nav */}
