@@ -1,0 +1,106 @@
+I want you to design and build a modern, responsive landing website for my AI security startup called “VigilanceX”.
+
+What we do:
+VigilanceX builds AI-powered surveillance and video analytics for real-time threat detection, anomaly detection, and safety monitoring for offices, factories, and smart cities.
+
+Overall style:
+
+Very clean, futuristic, cyber-security vibe
+
+Dark theme with accent highlight colors
+
+Smooth animations and subtle hover effects
+
+Design quality and layout inspired by major cybersecurity / AI SaaS companies (similar feel to leading brands, but do NOT copy any exact text, logos, or assets).
+
+Page structure (single page website):
+
+Hero Section (top)
+
+Big headline: “AI-Powered Surveillance. Relentless Vigilance.”
+
+Subtext explaining VigilanceX in 2–3 lines.
+
+Call-to-action buttons: “Book a Demo” and “Contact Us”.
+
+Background with abstract AI / security / network graphics.
+
+About VigilanceX
+
+Short paragraph about the company’s mission and what makes us different.
+
+3–4 bullet points for core values: Real-time monitoring, Accuracy, Privacy-aware, Enterprise-ready.
+
+Key Features Section
+
+Use cards or icons to show features like:
+
+Intelligent Threat Detection
+
+Behavior & Anomaly Analysis
+
+Industrial Safety Monitoring
+
+Smart Alerts & Dashboards
+
+Each feature should have a short description.
+
+Use Cases / Solutions Section
+
+Tiles or columns for:
+
+Smart Cities
+
+Corporate Offices & Campuses
+
+Factories & Warehouses
+
+Retail & Malls
+
+Each with a brief explanation.
+
+Social Proof / “Trusted By” Placeholder
+
+Area where I can later add logos of companies.
+
+For now, use neutral placeholder logos or simple shapes.
+
+Contact Section
+
+Simple contact form with fields: Name, Email, Company, Message.
+
+Also show direct contact info:
+
+Email: contact@vigilancex.com
+ (placeholder)
+
+Phone: +91-XXXXXXXXXX (placeholder)
+
+Location: India
+
+Footer
+
+Company name, short tagline
+
+Links: Home, About, Solutions, Contact
+
+Copyright text
+
+Chatbot requirement:
+
+Add a small chatbot widget at the bottom-right of the site.
+
+On click, it opens a small chat window with a welcome message like:
+“Hi, I’m the VigilanceX Assistant. How can I help you today?”
+
+It should allow basic Q&A (even if responses are rule-based or placeholder for now).
+
+Technical details:
+
+Make it responsive for mobile, tablet, and desktop.
+
+Use clean, well-structured HTML, CSS, and JavaScript (or React if you support it).
+
+Keep content easy for me to edit later (text in clear sections).
+
+Output the complete code and any setup instructions I need to run the website locally or host it.
